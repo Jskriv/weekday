@@ -1,0 +1,45 @@
+body {
+  color: red;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 35px;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 35px;
+    -webkit-border-image:url(rose.png) 0 60; /* Safari 3.1-5 */
+    -o-border-image:url(rose.png) 0 60; /* Opera 11-12.1 */
+    border-image: url(rose.png) 0 60;
+    border-image-repeat: repeat;
+    border-image-width: 40px 30px;
+}
+
+.border-top-bottom {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  -webkit-border-image:url(rose.png) 60 0; /* Safari 3.1-5 */
+  -o-border-image:url(rose.png) 60 0; /* Opera 11-12.1 */
+  border-image: url(rose.png) 60 0;
+  border-image-repeat: repeat;
+  border-image-width: 30px;
+  width: 100%;
+  height: 700px;
+}
